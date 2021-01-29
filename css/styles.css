@@ -248,6 +248,8 @@ address {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  min-width: 1600px;
+  min-height: 600px;
 }
 
 .main-hero-modal-btn {

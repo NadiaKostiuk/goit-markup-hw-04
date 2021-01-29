@@ -9,6 +9,12 @@ html {
   box-sizing: border-box;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 *,
 *::before,
 *::after {
@@ -30,6 +36,26 @@ html {
 :visited {
   color: inherit;
 }
+/* COMMON */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
 
 li {
   list-style: none;
@@ -39,10 +65,7 @@ a {
   text-decoration: none;
 }
 
-link {
-  cursor: pointer;
-}
-
+link,
 button {
   cursor: pointer;
 }
@@ -54,8 +77,13 @@ body {
   background-color: var(--white-bg-color);
 }
 
-.header {
+section {
   display: block;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
 }
 
 .header {
@@ -64,15 +92,10 @@ body {
   border-bottom-color: #ececec;
 }
 
-.header-container,
 .navigation-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1200;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: auto;
 }
 
 .container {
@@ -157,6 +180,7 @@ body {
 address {
   display: flex;
   font-style: normal;
+  margin-left: auto;
 }
 
 .adress-mail-link {
@@ -182,6 +206,7 @@ address {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
+  color: #757575;
 }
 
 .adress-mail-link:hover,
@@ -198,6 +223,7 @@ address {
   letter-spacing: 0.02em;
   color: #757575;
 }
+
 .adress-phone-link:hover,
 .adress-phone-link:focus {
   color: #2196f3;
@@ -292,7 +318,6 @@ address {
 
 .what-we-do-list {
   display: flex;
-  justify-content: space-between;
 }
 
 .what-we-do-img {
@@ -310,6 +335,7 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 
 /* Navigation - кнопки меню в портфолио */
@@ -341,6 +367,7 @@ address {
 .nav-title:hover,
 .nav-title:focus {
   background-color: #2196f3;
+  color: var(--frame-portfolio-photo);
 }
 
 /* our team - Студия*/
@@ -512,11 +539,13 @@ ul.teamwork-list {
 
 .footer {
   background: #2f303a;
+}
+.footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.footer-logo-text {
+.footer .footer-logo-text {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -524,18 +553,21 @@ ul.teamwork-list {
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #2196f3;
+
+  margin-bottom: 20px;
+  display: inline-block;
 }
 
 .footer-logo-white {
   color: #ffffff;
 }
 
-.footer-map {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: #ffffff;
+.footer {
+  margin-bottom: 9px;
+}
+
+.footer-list {
+  margin-left: auto;
 }
 
 .footer-mail {
@@ -567,7 +599,7 @@ ul.teamwork-list {
   color: #2196f3;
 }
 
-.footer-mail {
+.footer-mail .footer-phone {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
@@ -578,21 +610,11 @@ ul.teamwork-list {
 }
 
 .footer-mail:hover,
-.footer-mail:focus {
-  color: #2196f3;
-}
-
-.footer-phone {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
+.footer-mail:focus,
 .footer-phone:hover,
 .footer-phone:focus {
   color: #2196f3;
+}
+.footer-list-item:not(:last-child) {
+  margin-bottom: 9px;
 }

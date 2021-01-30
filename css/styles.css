@@ -233,6 +233,16 @@ address {
   color: #2196f3;
 }
 
+/*SVG*/
+
+.adress-mail-link::before {
+  content: '';
+  display: block;
+  height: 12px;
+}
+.info-icon-mail::before {
+  display: inline-block;
+}
 /* Hero */
 
 .hero {
@@ -284,7 +294,15 @@ address {
   margin-bottom: 30px;
 }
 
-/*SVG*/
+/*SVG Студия Basic*/
+
+.basic-tricks-item::before {
+  content: '';
+  display: block;
+  height: 120px;
+  border-radius: 4px;
+  background-image: ;
+}
 
 /* basic triks Студия */
 

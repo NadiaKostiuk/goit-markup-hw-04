@@ -750,10 +750,12 @@ ul.teamwork-list {
   display: flex;
   justify-content: center;
 }
+
 .item-join {
   width: 44px;
   height: 44px;
 }
+
 .link-join {
   width: 100%;
   height: 100%;
@@ -764,6 +766,7 @@ ul.teamwork-list {
   align-items: center;
   fill: #ffffff;
 }
+
 .link-join:hover,
 .link-join:focus {
   background-color: var(--akcent-text-button-color);

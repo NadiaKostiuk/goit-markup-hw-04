@@ -235,14 +235,6 @@ address {
 
 /*SVG*/
 
-.adress-mail-link::before {
-  content: '';
-  display: block;
-  height: 12px;
-}
-.info-icon-mail::before {
-  display: inline-block;
-}
 /* Hero */
 
 .hero {

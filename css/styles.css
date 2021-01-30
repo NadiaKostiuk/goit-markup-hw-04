@@ -234,6 +234,14 @@ address {
 }
 
 /*SVG*/
+.info-icon-mail {
+  width: 16px;
+  height: 12px;
+}
+.info-icon-phone {
+  width: 10px;
+  height: 16px;
+}
 
 /* Hero */
 
@@ -288,13 +296,19 @@ address {
 
 /*SVG Студия Basic*/
 
-.basic-tricks-item::before {
-  content: '';
-  display: block;
-  height: 120px;
-  border-radius: 4px;
-  background-image: ;
+.icon-division {
 }
+
+.icon-astronaut {
+  width: 270px;
+  height: 120px;
+}
+
+.icon-time
+.icon-diagram
+.icon-asrounaut
+
+
 
 /* basic triks Студия */
 
@@ -481,6 +495,26 @@ ul.teamwork-list {
   color: #757575;
 }
 
+/*SVG- social-link-icon*/
+
+.icon-network {
+  width: 20px;
+  height: 20px;
+}
+
+.social-list {
+  display: flex;
+}
+
+.link-network {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
 /* Our team */
 
 .our-team-list {
@@ -563,6 +597,59 @@ ul.teamwork-list {
   background: #f5f4fa;
 }
 
+/* ==========CLIENTS========= */
+
+.clients .container {
+  padding: 94px 0;
+}
+
+.team-title {
+  display: block;
+  margin-bottom: 50px;
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: #212121;
+}
+.team-list {
+  display: flex;
+}
+
+/* SVG clienys imeges */
+.list-clients {
+  display: flex;
+  justify-content: center;
+}
+
+.item-clients {
+  width: 170px;
+  height: 90px;
+}
+.item-clients:not(:last-child) {
+  margin-right: 30px;
+}
+
+.link-clients {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+}
+
+.link-clients:hover,
+.link-clients:hover .icon-clients,
+.link-clients:focus,
+.link-clients:focus .icon-clients {
+  fill: var(--akcent-text-button-color);
+  border-color: var(--akcent-text-button-color);
+}
+
 /* футер лого */
 
 .footer {
@@ -588,10 +675,6 @@ ul.teamwork-list {
 
 .footer-logo-white {
   color: #ffffff;
-}
-
-.footer {
-  margin-bottom: 9px;
 }
 
 .footer-list {
@@ -645,4 +728,46 @@ ul.teamwork-list {
 }
 .footer-list-item:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.join {
+  width: 210px;
+}
+/* join division */
+.join-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+}
+
+/* svg imeges join */
+
+.list-join {
+  display: flex;
+  justify-content: center;
+}
+.item-join {
+  width: 44px;
+  height: 44px;
+}
+.link-join {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  align-items: center;
+  fill: #ffffff;
+}
+.link-join:hover,
+.link-join:focus {
+  background-color: var(--akcent-text-button-color);
+}
+.item-join:not(:last-child) {
+  margin-right: 10px;
 }

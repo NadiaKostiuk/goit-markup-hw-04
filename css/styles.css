@@ -769,7 +769,8 @@ ul.teamwork-list {
 
 .link-join:hover,
 .link-join:focus {
-  background-color: var(--akcent-text-button-color);
+  color: #ffffff;
+  background: #2196f3;
 }
 .item-join:not(:last-child) {
   margin-right: 10px;

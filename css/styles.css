@@ -703,6 +703,7 @@ ul.teamwork-list {
 
 .footer {
   background: #2f303a;
+  display: block;
 }
 .footer {
   padding-top: 60px;

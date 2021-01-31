@@ -784,6 +784,7 @@ ul.teamwork-list {
 
 .join {
   width: 210px;
+  display: flex;
 }
 
 /* join division */

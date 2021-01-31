@@ -309,6 +309,9 @@ address {
 }
 
 /*SVG Студия Basic*/
+.basic-tricks-item {
+  min-width: 270px;
+}
 
 .icon-division {
   width: 270px;
@@ -321,11 +324,7 @@ address {
   margin-bottom: 30px;
 }
 
-.icon-astronaut {
-  width: 270px;
-  height: 120px;
-}
-
+.icon-astronaut 
 .icon-time
 .icon-diagram
 .icon-asrounaut
@@ -378,6 +377,7 @@ address {
 
 .what-we-do {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .what-we-do-list {

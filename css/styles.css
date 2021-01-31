@@ -524,6 +524,8 @@ ul.teamwork-list {
 .social-list {
   display: flex;
   justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .social-item {
@@ -626,7 +628,7 @@ ul.teamwork-list {
   color: #757575;
 
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 .our-team img {

@@ -241,6 +241,7 @@ address {
 
 .info-icon-mail {
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .info-icon-phone {
@@ -249,8 +250,8 @@ address {
 }
 
 .info-icon-phone {
-  display: inline-block;
   margin-right: 10px;
+  fill: currentColor;
 }
 
 /* Hero */
@@ -689,8 +690,8 @@ ul.teamwork-list {
 .link-clients:hover .icon-clients,
 .link-clients:focus,
 .link-clients:focus .icon-clients {
-  fill: var(--akcent-text-button-color);
-  border-color: var(--akcent-text-button-color);
+  fill: var(--color-forces-color);
+  border-color: var(--color-forces-color);
 }
 
 /* футер лого */

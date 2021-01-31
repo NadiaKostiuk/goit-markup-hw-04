@@ -549,10 +549,12 @@ ul.teamwork-list {
 .link-network:focus {
   background-color: var(--color-forces-color);
 }
+
 .link-network:hover .icon-network,
 .link-network:focus .icon-network {
   fill: #ffffff;
 }
+
 /* Our team */
 
 .our-team-list {
@@ -651,11 +653,13 @@ ul.teamwork-list {
   line-height: 1.16;
   color: #212121;
 }
+
 .team-list {
   display: flex;
 }
 
 /* SVG clienys imeges */
+
 .list-clients {
   display: flex;
   justify-content: center;
@@ -665,6 +669,7 @@ ul.teamwork-list {
   width: 170px;
   height: 90px;
 }
+
 .item-clients:not(:last-child) {
   margin-right: 30px;
 }
@@ -764,6 +769,7 @@ ul.teamwork-list {
 .footer-phone:focus {
   color: #2196f3;
 }
+
 .footer-list-item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -771,7 +777,9 @@ ul.teamwork-list {
 .join {
   width: 210px;
 }
+
 /* join division */
+
 .join-title {
   color: #ffffff;
   font-weight: 700;

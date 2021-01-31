@@ -179,6 +179,7 @@ section {
   align-items: center;
   list-style: none;
   margin-left: auto;
+  justify-content: center;
 }
 
 address {
@@ -198,9 +199,11 @@ address {
 .adress-mail-link,
 .adress-phone-link {
   text-decoration: none;
-  display: block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
+  justify-content: center;
+  align-items: center;
 }
 
 .adress-mail-link {

@@ -806,8 +806,7 @@ ul.teamwork-list {
 /* svg imeges join */
 
 .list-join {
-  display: flex;
-  justify-content: center;
+  display: block;
 }
 
 .item-join {

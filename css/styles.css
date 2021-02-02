@@ -795,23 +795,20 @@ ul.teamwork-list {
 
 .footer {
   display: flex;
-  align-items: baseline;
-  margin: auto;
 }
-.container {
-  align-items: baseline;
+
+.footer .container {
+  display: flex;
 }
 
 .footer-container {
+  padding-right: 70px;
+  align-items: baseline;
 }
 
 .join {
   align-items: center;
-  padding-left: 70px;
-  width: 1200px;
-
-  padding-left: 15px;
-  padding-right: 15px;
+  align-items: baseline;
 }
 
 /* join division */

@@ -797,6 +797,7 @@ ul.teamwork-list {
 .footer {
   display: flex;
   align-items: baseline;
+  margin: auto;
 }
 .container {
   align-items: baseline;

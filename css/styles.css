@@ -799,14 +799,15 @@ ul.teamwork-list {
   padding-right: 15px;
 }
 
-.footer-container {
-  align-items: baseline;
+.footer .container {
+  display: flex;
+  align-items: center;
 }
 
 .join {
-  content: '';
   display: block;
   align-items: center;
+  padding-left: 70px;
 }
 
 .join-container {

@@ -791,9 +791,20 @@ ul.teamwork-list {
   margin-bottom: 9px;
 }
 
+.footer-container {
+  width: 1200px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer-container {
+  align-items: baseline;
+}
+
 .join {
-  width: 210px;
-  display: flex;
+  display: block;
+  padding-left: 70px;
 }
 
 /* join division */

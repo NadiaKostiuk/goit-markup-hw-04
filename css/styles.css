@@ -314,25 +314,21 @@ address {
 }
 
 .icon-division {
+  content: '';
+  display: flex;
   width: 270px;
   height: 120px;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background-color: #f5f4fa;
-  border-radius: 4px;
   margin-bottom: 30px;
+  border-radius: 4px;
 }
 
-.icon-astronaut {
-  width: 100%;
-  height: 100%;
+.icom-svg {
+  width: 70px;
+  height: 70px;
 }
-.icon-time
-.icon-diagram
-.icon-asrounaut
-
-
 
 /* basic triks Студия */
 
@@ -414,6 +410,12 @@ address {
 
 .portfolio-navigation-list-item:not(:last-child) {
   margin-right: 8px;
+}
+
+.portfolio-link {
+  display: block;
+  margin-right: 0;
+  /* outline: 1px solid #eeeeee; */
 }
 
 .portfolio-link:hover,
@@ -803,14 +805,14 @@ ul.teamwork-list {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-
   margin-bottom: 20px;
+  display: block;
 }
 
 /* svg imeges join */
 
 .list-join {
-  display: block;
+  display: flex;
 }
 
 .item-join {

@@ -793,18 +793,17 @@ ul.teamwork-list {
 
 .footer .container {
   display: flex;
-  align-items: center;
-}
-.footer-container {
-  display: inline;
   align-items: baseline;
+}
+
+.footer-container {
 }
 .join {
   display: block;
   align-items: center;
   padding-left: 70px;
   width: 1200px;
-  margin: auto;
+
   padding-left: 15px;
   padding-right: 15px;
 }

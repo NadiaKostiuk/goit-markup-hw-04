@@ -716,6 +716,7 @@ ul.teamwork-list {
   background: #2f303a;
 }
 .footer {
+  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -791,8 +792,11 @@ ul.teamwork-list {
   margin-bottom: 9px;
 }
 
-.footer .container {
+.footer {
   display: flex;
+  align-items: baseline;
+}
+.container {
   align-items: baseline;
 }
 

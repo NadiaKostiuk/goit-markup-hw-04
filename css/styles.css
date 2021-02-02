@@ -792,6 +792,7 @@ ul.teamwork-list {
 }
 
 .footer-container {
+  display: block;
   width: 1200px;
   margin: auto;
   padding-left: 15px;
@@ -803,8 +804,17 @@ ul.teamwork-list {
 }
 
 .join {
+  content: '';
   display: block;
-  padding-left: 70px;
+  align-items: center;
+}
+
+.join-container {
+  display: inline-block;
+  width: 1200px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* join division */

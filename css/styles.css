@@ -349,7 +349,6 @@ address {
 
 .basic-tricks-list {
   display: flex;
-  margin-top: 94px;
 }
 
 .basic-tricks .basic-tricks-item + .basic-tricks-item {
